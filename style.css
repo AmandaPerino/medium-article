@@ -1,0 +1,99 @@
+/* Colors and fonts */
+
+body {
+  background: #f9f9f9e6;
+  color: #050710;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h1 {
+  color: #030a25;
+  font-size: 36px;
+}
+
+h2 {
+  color: #030a25;
+  font-size: 28px;
+}
+
+h3 {
+  color: #030a25;
+  font-size: 24px;
+  text-align: left;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80), linear-gradient(#f0e7ee, #ebc8c6);;
+  background-size: cover;
+  background-position: bottom;
+  padding: 120px 0;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 130px;
+}
+
+.banner h1, h2 {
+  text-align: center;
+  color: #050710;
+}
+
+a {
+  font-family: 'Lato', sans-serif;
+  color: #252222;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, #fadaca, #f8dfd2);
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, #f4d0bb, #f6d7c6);
+}
+
+@media (max-width: 1200px) {
+  /* For a screen < 1200px, this CSS will be read
+  .container {
+    width: 700px;
+  }
+} */
+
+@media (max-width: 992px) {
+  /* For a screen < 992px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* For a screen < 768px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* For a screen < 576px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
